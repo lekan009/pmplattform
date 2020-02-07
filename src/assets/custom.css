@@ -1,0 +1,277 @@
+/* custom style for moodle app customization 
+ * Author:  joshuaomotayo
+ * Url:     http://olalekan.pw
+ * Email:   admin@olalekan.pw
+*/
+
+
+
+/* logo */
+
+ion-app.app-root page-core-login-credentials img.login-logo, ion-app.app-root page-core-login-reconnect img.login-logo, ion-app.app-root page-core-login-site img.login-logo {
+    width: 90%;
+    max-width: 200px;
+}
+
+/*profile message button*/
+ion-app.app-root page-core-user-profile .core-user-communication-handlers .core-user-profile-handler .icon {
+    background-color: #c60021;
+}
+ion-app.app-root page-core-user-profile .core-user-communication-handlers .core-user-profile-handler {
+    color: #c60021 !important;
+}
+
+/*toolbar - ion-header*/
+.toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #c60021;
+}
+/*login button*/
+.button-md {
+    background-color: #c60021;
+    color: #FFFFFF !important;
+}
+.button-md:hover:not(.disable-hover) {
+    background-color: #c60021;
+}
+/*showdow input bottom border*/
+.item-md.item-input.ng-invalid.ng-touched:not(.input-has-focus):not(.item-input-has-focus) .item-inner {
+    border-bottom-color: #FCFCFC;
+    -webkit-box-shadow: inset 0 -1px 0 0 #FCFCFC;
+    box-shadow: inset 0 -1px 0 0 #FCFCFC;
+}
+.item-md.item-input.item-input-has-focus .item-inner, .item-md.item-input.input-has-focus .item-inner {
+    border-bottom-color: #c60021;
+    -webkit-box-shadow: inset 0 -1px 0 0 #c60021;
+    box-shadow: inset 0 -1px 0 0 #c60021;
+}
+[dir="ltr"] .item-md {
+    padding-left: 4px;
+    padding-right: 0;
+}
+/*forgot password button and color*/
+.button-md-light {
+    color: #c60021;
+    background-color: #f5f5f5 !important;
+}
+ion-app.app-root.md .button-md-light {
+    color: #c60021 !important;
+}
+/*button*/
+.button {
+    /*background-color: none !important;*/
+    /*border-color: #1C7C00;
+    color: #1C7C00;*/
+}
+/*dasboard tab bar*/
+ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] {
+    color: #c60021 !important;
+    border-bottom-color: #c60021 !important;
+}
+/*dashboard drop down*/
+ion-app.app-root ion-select.core-button-select .select-icon .select-icon-inner, ion-app.app-root .core-button-select .select-icon .select-icon-inner {
+    color: #c60021;
+}
+ion-app.app-root ion-select.core-button-select, ion-app.app-root .core-button-select {
+    color: #c60021;
+}
+/*progress bar in courses*/
+ion-app.app-root core-progress-bar progress .progress-bar-fallback span, ion-app.app-root core-progress-bar progress[value]::-webkit-progress-value {
+    background-color: #c60021;
+    border-radius: 0;
+}
+/*radio button*/
+.radio-md .radio-checked {
+    border-color: #c60021;
+}
+.radio-md .radio-inner {
+    background-color: #c60021;
+}
+.item-radio-checked.item-md ion-label {
+    color: #c60021;
+}
+/*calendar*/
+ion-app.app-root addon-calendar-calendar .addon-calendar-day.today .addon-calendar-day-number span {
+    background-color: #c60021;
+}
+/*3 dot more icon*/
+.button-clear.button-clear {
+    border-color: transparent !important;
+    background: transparent !important;
+    color: #FFFFFF !important;
+}
+/*fab button*/
+.fab-md, .fab-md.activated {
+    background-color: #c60021;
+}
+/*action for upload in private link*/
+.action-sheet-md .action-sheet-title {
+    color: #c60021;
+}
+/*hamburger menu*/
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon, .tabs-md ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-md .tab-slide[aria-selected=true] .tab-button-icon {
+    color: #7d0f13;
+}
+/*toggle button*/
+.toggle-md.toggle-checked .toggle-icon {
+    background-color: #c6002178;
+}
+.toggle-md.toggle-checked .toggle-inner {
+    background-color: #c60021;
+}
+/*general settings*/
+ion-app.app-root ion-select .select-icon .select-icon-inner {
+    color: #c60021;
+}
+ion-app.app-root ion-select {
+    color: #c60021;
+}
+ion-app.app-root .action-sheet-wrapper .action-sheet-selected {
+    color: #c60021;
+}
+/*font sizes*/
+.segment-md-primary .segment-button.activated, .segment-md-primary .segment-button.segment-activated {
+    border-color: #c60021;
+    color: #c60021;
+}
+.segment-md-primary .segment-button {
+    color: #c60021;
+}
+/*alert button color*/
+.alert-md .alert-button {
+    color: #c60021;
+}
+/*app usage section*/
+[dir="ltr"] ion-app.app-root .core-primary-selected-item {
+    border-left: 5px solid #c60021;
+}
+/*change site icon*/
+ion-app.app-root .item .item-button[icon-only] {
+    color: red !important;
+}
+
+/*IOS Theme*/
+.toolbar-background-ios {
+    background: #c60021;
+}
+.button-ios {
+    background: #c60021;
+}
+ion-app.app-root.ios .button-ios-light {
+    color: #ffffff;
+}
+.tabs-ios .tab-button[aria-selected=true] .tab-button-icon, .tabs-ios ion-app.app-root .core-tabs-bar .tab-slide[aria-selected=true] .tab-button-icon, ion-app.app-root .core-tabs-bar .tabs-ios .tab-slide[aria-selected=true] .tab-button-icon {
+    color: #c60021;
+}
+.segment-ios-primary .segment-button.segment-activated {
+    background-color: #c60021;
+}
+.segment-ios-primary .segment-button {
+    border-color: #c60021;
+    color: #c60021;
+}
+.toggle-ios.toggle-checked .toggle-icon {
+    background-color: #c60021;
+}
+
+/*landscape desktop*/
+@media screen and (orientation: landscape)
+[dir="ltr"] ion-app.app-root core-split-view .split-pane-visible .split-pane-side .core-split-item-selected {
+    border-left: calc(env(safe-area-inset-left) + 5px) solid #c60021;
+}
+
+
+
+.bar-header {
+    /*background-color: #1C7C00 !important;*/
+    /*border-bottom: 3px solid #1C7C00 !important;*/
+}
+
+.bar .bar-header .bar-side-menu {
+    color: #ffffff !important;
+}
+
+/* login logo to fit well */
+.mm-mm_login_credentials img.moodle-logo, .mm-mm_login_reconnect img.moodle-logo, .mm-mm_login_site img.moodle-logo {
+    /*width: 100% !important;*/
+    max-width: 120px !important;
+    margin-bottom: 10px !important;
+}
+
+/* splash screen */
+.mm-bglogo {
+    /*background-color: rgba(150, 150, 150, 0.18) !important;*/
+    background: -webkit-radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) !important;
+    background: radial-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)) !important;
+}
+
+.mm-tabs-color .tab-item.tab-item-active, .mm-tabs-color .tab-item.active, .mm-tabs-color .tab-item.activated {
+    color: #f98012;
+    border-bottom-color: #dca82c !important;
+}
+
+.mm-bglogo img {
+    width: 100% !important;
+    /*max-width: 150px !important;*/
+    
+}
+
+ion-side-menu li .item {
+    background-color: #ffffff !important;
+    border-color: #e0dbdb !important;
+    color: #2b2929 !important;
+}
+
+ion-side-menu li.item {
+    border-color: #ffffff !important;
+}
+
+.ion-ionic:before {
+    content: "\f3ea" !important;
+}
+
+.mm-site_mm_courses .tabs-icon-left {
+    background-color: #badfd0 !important;
+}
+
+.mm-site_mm_courses section h2 span {
+    font-weight: bold !important;
+}
+
+
+.button.button-positive {
+    border-color: #1C7C00 !important;
+    background-color: #1C7C00 !important;
+}
+
+
+
+.scroll .padding {
+    background-color: #ffffff !important;
+    border: #dddddd !important;
+}
+
+.item-avatar-center {
+    background: none !important;
+    border: none !important;
+    color: #fff !important;
+}
+
+.bar-content .button.button-icon {
+    border-color: transparent !important;
+    background: none !important;
+}
+
+.bar-content .button.button-clear {
+    border-color: transparent !important;
+    background: none  !important;
+}
+
+.item-avatar-center > img:first-child, .item-avatar-center.item-complex .item-content > img:first-child, .item-avatar-center img.avatar {
+    background-color: #ffffff !important;
+}
+
+.positive, a.positive {
+    color: #ffffff !important;
+}
+

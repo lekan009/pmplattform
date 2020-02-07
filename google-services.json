@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "215047144914",
+    "firebase_url": "https://pmplatform-78885.firebaseio.com",
+    "project_id": "pmplatform-78885",
+    "storage_bucket": "pmplatform-78885.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215047144914:android:81394085a5e44de33cf40b",
+        "android_client_info": {
+          "package_name": "com.pmplattform.learning"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215047144914-2m2gq6496ov6o274rt1ec833pm3jvrh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY5Yr2EAwworvzh7IJeCFkdvz85zWqHok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215047144914-2m2gq6496ov6o274rt1ec833pm3jvrh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
